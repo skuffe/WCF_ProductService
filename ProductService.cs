@@ -6,7 +6,7 @@ using System.ServiceModel;
 using System.Text;
 using System.ServiceModel.Web;
 
-namespace WCFandEFService
+namespace WCF_ProductService
 {
 	public class ProductService : IProductService
 	{

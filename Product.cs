@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Runtime.Serialization;
 
-namespace WCFandEFService
+namespace WCF_ProductService
 {
 	// Use a data contract as illustrated in the sample below to add composite types to service operations
 	[DataContract]

@@ -17,7 +17,7 @@ using System.Runtime.Serialization;
 
 [assembly: EdmSchemaAttribute()]
 
-namespace WCFandEFService
+namespace WCF_ProductService
 {
     #region Contexts
     
