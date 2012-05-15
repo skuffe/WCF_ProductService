@@ -11,7 +11,7 @@ namespace WCF_ProductService_Client
     {
         static void Main(string[] args)
         {
-            ProductServiceClient client = new ProductServiceClient("BasicHttpBinding_IProductService","http://192.168.139.93:8732/ProductService/soap");
+            ProductServiceClient client = new ProductServiceClient("WSHttpBinding_IProductService", "http://192.168.139.93:8732/ProductService/ws");
             Product p = client.GetProduct("1");
             Console.WriteLine("Productname: " + p.ProductName);
             Console.ReadLine();
